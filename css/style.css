@@ -83,7 +83,6 @@ $bp-smallest: 25em; // 400px */
 }
 .form_input::-webkit-input-placeholder {
   font-size: 16px;
-  text-transform: capitalize;
 }
 .form_input:focus {
   outline: none;

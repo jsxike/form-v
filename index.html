@@ -31,11 +31,13 @@
 
     <div class="form_group">
       <i class="fas fa-user form_icon"></i>
-      <input type="text" name="username" placeholder="Username" class="form_input" required minlength=" 10">
+      <input type="text" name="username" placeholder="Username (minimum 7 characters)" class="form_input" required
+        minlength=" 7">
     </div>
     <div class="form_group">
       <i class="fas fa-envelope form_icon"></i>
-      <input type="email" name="email" placeholder="Email Address" class="form_input" required>
+      <input type="email" name="email" placeholder="Email (example@mail.com)" class="form_input"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
     </div>
     <div class="form_group">
       <i class="fas fa-lock form_icon"></i>
