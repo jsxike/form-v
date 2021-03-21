@@ -8,7 +8,7 @@ $(document).ready(function () {
 
   //PASSWORD SHOW/HIDE TOGGLE
   const changeEye = () => {
-    const pass = document.getElementById('my_pass');
+    const pass = document.getElementById('password');
     const hide1 = document.getElementById('hide1');
     const hide2 = document.getElementById('hide2');
     if (pass.type === 'password') {
