@@ -75,6 +75,7 @@ $bp-smallest: 25em; // 400px */
 }
 .form_input {
   outline: none;
+  overflow: hidden;
   font-size: 16px;
   width: 65%;
   font-family: inherit;
@@ -83,7 +84,6 @@ $bp-smallest: 25em; // 400px */
   border-bottom: 1px solid #999999;
 }
 .form_input::-webkit-input-placeholder {
-  font-size: 16px;
   font-size: 1.2rem;
 }
 .form_input:focus {
