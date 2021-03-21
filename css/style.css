@@ -74,6 +74,7 @@ $bp-smallest: 25em; // 400px */
   margin-bottom: 2rem;
 }
 .form_input {
+  font-size: 16px;
   width: 65%;
   font-family: inherit;
   padding: 1.5rem 3rem;
@@ -81,7 +82,7 @@ $bp-smallest: 25em; // 400px */
   border-bottom: 1px solid #999999;
 }
 .form_input::-webkit-input-placeholder {
-  font-size: 1.5rem;
+  font-size: 16px;
   text-transform: capitalize;
 }
 .form_input:focus {
@@ -132,6 +133,7 @@ $bp-smallest: 25em; // 400px */
     margin-bottom: 2rem;
   }
   .form_input {
+    font-size: 16px;
     width: 80%;
     padding: 1.5rem 3rem;
   }
@@ -158,6 +160,7 @@ $bp-smallest: 25em; // 400px */
 }
 @media only screen and (max-width: 600px) {
   .form_input {
+    font-size: 16px;
     width: 80%;
     padding: 1.5rem 2rem;
   }
