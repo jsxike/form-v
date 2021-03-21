@@ -31,24 +31,25 @@
 
     <div class="form_group">
       <i class="fas fa-user form_icon"></i>
-      <input type="text" name="username" placeholder="Username (minimum 7 characters)" class="form_input" required
-        minlength=" 7">
+      <input type="text" id="name" name="username" placeholder="Username (minimum 7 characters)" class="form_input"
+        required minlength=" 7"><span id='nameverify'></span>
     </div>
     <div class="form_group">
       <i class="fas fa-envelope form_icon"></i>
-      <input type="email" name="email" placeholder="Email (example@mail.com)" class="form_input"
-        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+      <input type="email" id="email" name="email" placeholder="Email (example@mail.com)" class="form_input"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> <span id='emailverify'></span>
     </div>
     <div class="form_group">
       <i class="fas fa-lock form_icon"></i>
-      <input id="my_pass" type="password" name="password" placeholder="Password" required minlength="8" id="password"
+      <input type="password" name="password" placeholder="Password" required minlength="8" id="password"
         pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="form_input"> <span class="password_eye"><i id="hide1"
-          class="fas fa-eye-slash form_icon"></i><i id="hide2" class="fas fa-eye form_icon"></i></span>
+          class="fas fa-eye-slash form_icon"></i><i id="hide2" class="fas fa-eye form_icon"></i></span><span
+        id='passverify'></span>
     </div>
     <div class="form_group">
       <i class="fas fa-lock form_icon"></i>
-      <input type="password" name="passwordConfirm" placeholder="Password Confirm" required minlength="8" id="password"
-        class="form_input">
+      <input type="password" name="confirm_password" placeholder="Password Confirm" required minlength="8"
+        id="confirm_password" class="form_input"> <span id='confirmverify'></span>
     </div>
     <button class="form_submit">Sign Up</button>
     <p class="form_text">by clicking on the sign up button, you agree to our <span class="span">terms &

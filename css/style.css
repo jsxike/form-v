@@ -74,6 +74,7 @@ $bp-smallest: 25em; // 400px */
   margin-bottom: 2rem;
 }
 .form_input {
+  outline: none;
   font-size: 16px;
   width: 65%;
   font-family: inherit;
@@ -108,7 +109,14 @@ $bp-smallest: 25em; // 400px */
   background-color: #28b485;
   margin-bottom: 1.2rem;
 }
-
+#nameverify,
+#emailverify,
+#passverify,
+#confirmverify {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  display: block;
+}
 .span {
   color: #28b485;
 }
